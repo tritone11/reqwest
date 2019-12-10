@@ -86,7 +86,7 @@ tokio-tls = { version = "=0.3.0-alpha.6", optional = true }
 futures-channel-preview = { version = "=0.3.0-alpha.19", optional = true }
 
 ## cookies
-cookie_crate = { version = "0.12", package = "cookie", optional = true }
+cookie_crate = { git = "https://github.com/tritone11/cookie-rs", package = "cookie", optional = true }
 cookie_store = { version = "0.10", optional = true }
 
 ## gzip
